@@ -42,8 +42,6 @@ After having it running, you can send an http request using any client, or just 
 
 #### The request example using javascript's `fetch` api
 
-The request payload is:
-
 ```js
 const fs = require("fs");
 const FormData = require("form-data");
