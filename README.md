@@ -1,8 +1,8 @@
 # Image Compressor
 
-# Run it
+## Run it
 
-## Using Docker
+### Using Docker
 
 First you may have [docker](https://www.docker.com/) installed on your machine, and then clone this repository:
 
@@ -16,7 +16,7 @@ $ docker-compose up -d
 
 After that the server should be listening on the port `8080`
 
-## Using Virtual environment
+### Using Virtual environment
 
 First you may have at-least python version 3.8:
 
@@ -36,11 +36,11 @@ $ python3 main.py
 
 After that the server should be listening on the port `8080`
 
-# Usage
+### Usage
 
 After having it running, you can send an http request using any client, or just access the docs to send the request on `http://localhost:8080/docs`
 
-## The request example using javascript's `fetch` api
+#### The request example using javascript's `fetch` api
 
 The request payload is:
 
